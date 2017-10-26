@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <title>Augmented Reality</title>
+    <script src='/vendor/aframe.min.js'></script>
+    <script src='/vendor/aframe-ar.js'></script>
+    <link rel='stylesheet' href='/src/app.css' />
+  </head>
+
+  <body>
+    <a-scene embedded arjs>
+      <a-marker>
+        <a-box color='firebrick'></a-box>
+      </a-marker>
+
+      <a-camera-static />
+    </a-scene>
+  </body>
+</html>

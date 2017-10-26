@@ -1,6 +1,10 @@
 {
   "name": "ar-demo",
-  "description": "",
-  "main": "index.js",
-  "private": true
+  "scripts": {
+    "start": "http-server . -p 1337 --ssl --cert server.crt --key server.key"
+  },
+  "private": true,
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
 }
